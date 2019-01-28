@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -29,4 +30,68 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.intro-grid {
+  padding: 30px 20px 0 20px;
+}
+
+.intro-paper {
+  padding: 10px 30px 0 30px;
+}
+
+.top-grid {
+  padding: 20px 10px 0 10px;
+  height: 650px;
+}
+
+.bottom-grid {
+  padding-top: 10px;
+  height: 700px;
+}
+
+.intro {
+
+}
+
+.logo {
+  width: 200px;
+}
+
+.icon {
+  width: 60px;
+  border: 2px solid white;
+}
+
+.icon.selected {
+  border: 2px solid black;
+}
+
+.label {
+  margin: 10px 0 10px 0;
+}
+
+.icon:hover {
+  cursor: pointer;
+  border: 2px solid black
+}
+
+.fullImage {
+  width: 600px;
+}
+
+.smallImage {
+  width: 200px;
+}
+
+.paper {
+  height: 100%;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.similarity {
+  padding-bottom: 10px;
+  font-size: 36px;
+
 }
